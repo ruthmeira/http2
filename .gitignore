@@ -1,0 +1,13 @@
+# Node
+node_modules/
+npm-debug.log
+
+# React build
+frontend/build/
+frontend/node_modules/
+
+# VS Code
+.vscode/
+
+# Docker
+docker-compose.override.yml

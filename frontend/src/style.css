@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+}
+
+button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+/* Contenedor de botones en fila */
+.botones {
+  display: flex;
+  gap: 1rem; /* espacio entre botones */
+  margin-bottom: 1rem; /* espacio debajo de los botones para el mensaje */
+}
+
+/* Mensaje debajo de los botones */
+.mensaje {
+  font-weight: bold;
+  color: #333;
+}
